@@ -34,7 +34,7 @@ const updateProducts = async (req, res) => {
   const updatedProduct = req.body;
   const date = new Date();
   updatedProduct.timestamp = date.toString();
-  updatedProduct.id = id;
+  updatedProduct.id = +id;
   await products.save(updatedProduct);
   res.json(updatedProduct);
 };
@@ -42,7 +42,6 @@ const updateProducts = async (req, res) => {
 const deleteProducts = async (req, res) => {
   const { id } = req.params;
   const foundProduct = products.getById(id);
-  const name = foundProduct.name;
   products.deleteById(id);
   res.json({ message: `Product with ID: ${id} was deleted.` });
 };
