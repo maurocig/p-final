@@ -1,0 +1,185 @@
+[
+	{
+		"title": "C-250e MAX",
+		"type": "equipos",
+		"brand": "Thermo King",
+		"line": "VP Truck",
+		"model": "C",
+		"description": "Reparto de cargas sensibles a la temperatura en vehículos de pequeño tamaño",
+		"id": 0,
+		"price": 100,
+		"pictureUrl": "https://res.cloudinary.com/lp01/image/upload/v1658452061/reci-react/thermoking/img_produto_serie-ce_nv-e1620736949377_tek4px.jpg",
+		"stock": 5
+	},
+	{
+		"title": "RV-380",
+		"type": "equipos",
+		"brand": "Thermo King",
+		"line": "VP Truck",
+		"model": "RV",
+		"description": "Diseño personalizado para camiones de pequeño y mediano porte.",
+		"id": 1,
+		"price": 100,
+		"pictureUrl": "https://res.cloudinary.com/lp01/image/upload/v1658447555/reci-react/thermoking/18_equipamentos_giiro_v380_z1tmym.png",
+		"stock": 5
+	},
+	{
+		"title": "V-500",
+		"type": "equipos",
+		"brand": "Thermo King",
+		"line": "VP Truck",
+		"model": "V",
+		"description": "La serie V-500 le ofrece una performance óptima, consumiendo menos combustible y de forma silenciosa.",
+		"id": 2,
+		"price": 200,
+		"pictureUrl": "https://res.cloudinary.com/lp01/image/upload/v1658452150/reci-react/thermoking/s_C3_A9rie-v-500-max-thermo-king_mzrhj1.jpg",
+		"stock": 7
+	},
+	{
+		"title": "T-600R",
+		"type": "equipos",
+		"brand": "Thermo King",
+		"line": "Truck",
+		"model": "T",
+		"description": "Las unidades T-600R permiten control de temperatura preciso, menor consumo de combustible y operación silenciosa",
+		"id": 3,
+		"price": 300,
+		"pictureUrl": "https://res.cloudinary.com/lp01/image/upload/v1658452183/reci-react/thermoking/img_produto_T600R_nv-1536x610_e243ks.jpg",
+		"stock": 9
+	},
+	{
+		"title": "T-800R",
+		"type": "equipos",
+		"brand": "Thermo King",
+		"line": "Truck",
+		"model": "T",
+		"description": "La unidad T-800R utiliza tecnología QuickTemp y un compresor recíproco que le brinda ahorro de combustible, control de temperatura mejorado y mantenimiento reducido.",
+		"id": 4,
+		"price": 500,
+		"pictureUrl": "https://res.cloudinary.com/lp01/image/upload/v1658452226/reci-react/thermoking/t800_ibnudf.png",
+		"stock": 4
+	},
+	{
+		"title": "SLXI 400",
+		"type": "equipos",
+		"brand": "Thermo King",
+		"line": "Trailer",
+		"model": "SLXI",
+		"description": "Líder en eficiencia y performance, ofrece máximo control de temperatura gracias al controlador Smart Reefer SR3 y sistema OptiSet Plus.",
+		"id": 5,
+		"price": 500,
+		"pictureUrl": "https://res.cloudinary.com/lp01/image/upload/v1658452253/reci-react/thermoking/img_produto_SLXI_400_01_y3cmen.png",
+		"stock": 3
+	},
+	{
+		"title": "Aluminio",
+		"type": "carrocerias",
+		"variant": "1mm",
+		"brand": "Liderkit",
+		"materiales": [
+			"Aluminio",
+			"Acero"
+		],
+		"model": [
+			"X"
+		],
+		"description": "Construídas con paneles de alumino y perfilería de acero, son una alternativa ligera y robusta para carga seca.",
+		"id": 21,
+		"price": 5000,
+		"pictureUrl": "https://res.cloudinary.com/lp01/image/upload/v1657581276/reci-react/Liderkit/productos-web-lk/aluminio-paneles02_kv4qpy.png",
+		"stock": 4
+	},
+	{
+		"title": "Sandwich",
+		"type": "carrocerias",
+		"variant": [
+			"18 mm",
+			"30 mm"
+		],
+		"brand": "Liderkit",
+		"materiales": [
+			"poliestireno",
+			"Poliester",
+			"Fibra de vidrio"
+		],
+		"model": [
+			"W",
+			"WR",
+			"W40",
+			"E"
+		],
+		"description": "Construída con paneles LIDERfoam de 30 o 18 mm con piel de poliester reforzada con fibra de vidrio e intierior de poliestireno extruído.",
+		"id": 22,
+		"price": 7000,
+		"pictureUrl": "https://res.cloudinary.com/lp01/image/upload/v1658357148/reci-react/Liderkit/productos-web-lk/sandwich-paneles01_d0tgto_qyesom.png",
+		"stock": 2
+	},
+	{
+		"title": "Plywood",
+		"type": "carrocerias",
+		"variant": [
+			"14 mm",
+			"17 mm",
+			"20 mm"
+		],
+		"brand": "Liderkit",
+		"materiales": [
+			"Plywood",
+			"Poliester",
+			"Fibra de vidrio"
+		],
+		"model": [
+			"J",
+			"K",
+			"Q"
+		],
+		"description": "Compuesta por paneles de contrachapado reforzados que garantizan rigidez, estanqueidad e impermeabilidad del conjunto.",
+		"id": 23,
+		"price": 7000,
+		"pictureUrl": "https://res.cloudinary.com/lp01/image/upload/v1658438135/reci-react/Liderkit/productos-web-lk/plywood20-paneles-01_y9xevj.png",
+		"stock": 2
+	},
+	{
+		"title": "Poliéster",
+		"type": "carrocerias",
+		"variant": [
+			"2 mm",
+			"3.5 mm"
+		],
+		"brand": "Liderkit",
+		"materiales": [
+			"Acero",
+			"Poliester",
+			"Fibra de vidrio"
+		],
+		"model": [
+			"Z",
+			"ZR"
+		],
+		"description": "Planchas de poliester reforzado con fibra de vidrio de 2mm fortalecida con omegas verticales de acero. Alternativa liviana y fácilmente reparable.",
+		"id": 24,
+		"price": 7000,
+		"pictureUrl": "https://res.cloudinary.com/lp01/image/upload/v1658437679/reci-react/Liderkit/productos-web-lk/poliester-paneles-01_lejr3b.png",
+		"stock": 2
+	},
+	{
+		"title": "Botellero",
+		"type": "carrocerias",
+		"variant": [],
+		"brand": "Liderkit",
+		"materiales": [
+			"Acero galvanizado",
+			"Lona",
+			"Aluminio",
+			"Plywood"
+		],
+		"model": [
+			"T"
+		],
+		"description": "Sistema de doble apertura lateral, ideal para el reparto de mercaderías que requieren una rápida y fácil descarga como bebidas.",
+		"id": 25,
+		"price": 7000,
+		"pictureUrl": "https://res.cloudinary.com/lp01/image/upload/v1658438898/reci-react/Liderkit/productos-web-lk/botellero-paneles-01_nahwnv.png",
+		"stock": 2
+	}
+]
