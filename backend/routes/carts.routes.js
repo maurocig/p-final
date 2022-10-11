@@ -1,4 +1,7 @@
 const express = require('express');
 const router = express.Router();
+const { newCart } = require('../controllers/cartsController');
 
-router.post('/', async (req, res) => {});
+router.post('/', newCart);
+
+module.exports = router;

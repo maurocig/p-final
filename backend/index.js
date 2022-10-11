@@ -11,6 +11,7 @@ app.use(express.static(__dirname + '/public'));
 
 // Routers
 app.use('/api/products', require('./routes/products.routes'));
+app.use('/api/carts', require('./routes/carts.routes'));
 
 // Listen
 app.listen(PORT, () => console.log(`Server started on port ${PORT}`));

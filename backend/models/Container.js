@@ -17,6 +17,10 @@ module.exports = class Products {
   async assignId(obj) {
     try {
       const file = await this.getFile();
+      if (!file.length) {
+        obj.id = 0;
+        return;
+      }
       const lastIndex = file.length - 1;
       const lastId = file[lastIndex].id;
       obj.id = lastId + 1;
