@@ -1,0 +1,55 @@
+[
+  {
+    "id": 0,
+    "timestamp": "Tue Oct 11 2022 14:14:11 GMT-0300 (Argentina Standard Time)",
+    "products": []
+  },
+  {
+    "id": 1,
+    "timestamp": "Tue Oct 11 2022 14:14:21 GMT-0300 (Argentina Standard Time)",
+    "products": [
+      {
+        "id": 1,
+        "timestamp": "hoy",
+        "name": "rueda",
+        "description": "es una rueda",
+        "code": 2394,
+        "picture": "https://5.imimg.com/data5/DK/KT/WM/SELLER-57230940/hyundai-car-wheel-500x500.jpg",
+        "price": 500,
+        "stock": 3
+      }
+    ]
+  },
+  {
+    "id": 1335,
+    "timestamp": "Tue Oct 11 2022 16:23:15 GMT-0300 (Argentina Standard Time)",
+    "products": [
+      {
+        "id": 1,
+        "timestamp": "hoy",
+        "name": "rueda",
+        "description": "es una rueda",
+        "code": 2394,
+        "picture": "https://5.imimg.com/data5/DK/KT/WM/SELLER-57230940/hyundai-car-wheel-500x500.jpg",
+        "price": 500,
+        "stock": 3
+      }
+    ]
+  },
+  {
+    "id": 6580,
+    "timestamp": "Tue Oct 11 2022 16:22:24 GMT-0300 (Argentina Standard Time)",
+    "products": [
+      {
+        "id": 1,
+        "timestamp": "hoy",
+        "name": "rueda",
+        "description": "es una rueda",
+        "code": 2394,
+        "picture": "https://5.imimg.com/data5/DK/KT/WM/SELLER-57230940/hyundai-car-wheel-500x500.jpg",
+        "price": 500,
+        "stock": 3
+      }
+    ]
+  }
+]
