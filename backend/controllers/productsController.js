@@ -46,6 +46,11 @@ const deleteProducts = async (req, res) => {
   res.json({ message: `Product with ID: ${id} was deleted.` });
 };
 
+// const notFound = (req, res) => {
+// 	const {}
+// 	res.json({ error : -2, description: `ruta ${} método 'y' no implementada`})
+// }
+
 module.exports = {
   getProducts,
   postProducts,

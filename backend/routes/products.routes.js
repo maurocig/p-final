@@ -7,26 +7,16 @@ const {
   getProductsId,
   updateProducts,
   deleteProducts,
+  notFound,
 } = require('../controllers/productsController');
+const { validateAdmin } = require('../middleware');
 
 router.get('/', getProducts);
-router.post('/', postProducts);
+router.post('/', validateAdmin, postProducts);
 
 router.get('/:id', getProductsId);
-router.put('/:id', updateProducts);
+router.put('/:id', validateAdmin, updateProducts);
 
-router.delete('/:id', deleteProducts);
-
-router.get('/carrocerias', (req, res) => {
-  res.status(200).json({ message: 'get carrocerias' });
-});
-
-router.get('/equipos', (req, res) => {
-  res.status(200).json({ message: 'get equipos' });
-});
-
-router.get('/accesorios', (req, res) => {
-  res.status(200).json({ message: 'get accesorios' });
-});
+router.delete('/:id', validateAdmin, deleteProducts);
 
 module.exports = router;
